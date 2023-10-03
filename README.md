@@ -11,3 +11,9 @@
 ``` 
   USE nome_do_banco_de_dados;
 ```
+
+<h3>Mostrar tabelas do banco de dados selecionado:</h3>
+
+``` 
+  SHOW TABLES;
+```
