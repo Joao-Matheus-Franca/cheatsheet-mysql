@@ -5,3 +5,9 @@
 ``` 
   SHOW DATABASES;
 ```
+
+<h3>Selecionar banco de dados:</h3>
+
+``` 
+  USE nome_do_banco_de_dados;
+```
