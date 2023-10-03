@@ -29,3 +29,21 @@
 ``` 
   CREATE DATABASE nome_do_banco_de_dados;
 ```
+
+<h3>Principais restrições(constraints):</h3>
+
+```
+  NOT NULL
+```
+```
+  UNIQUE
+```
+```
+  PRIMARY KEY
+```
+```
+  FOREIGN KEY
+```
+```
+  DEFAULT
+```
