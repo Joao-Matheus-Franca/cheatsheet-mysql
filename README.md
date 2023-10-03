@@ -23,3 +23,9 @@
 ``` 
   DESCRIBE nome_da_tabela;
 ```
+
+<h3>Criar bancos de dados:</h3>
+
+``` 
+  CREATE DATABASE nome_do_banco_de_dados;
+```
