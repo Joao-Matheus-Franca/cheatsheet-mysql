@@ -17,3 +17,9 @@
 ``` 
   SHOW TABLES;
 ```
+
+<h3>Mostrar estrutura de uma tabela:</h3>
+
+``` 
+  DESCRIBE nome_da_tabela;
+```
