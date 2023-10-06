@@ -93,3 +93,15 @@
 ``` 
   SELECT coluna FROM banco_de_dados.tabela LIMIT valor OFFSET valor;
 ```
+
+<h3>Ordenar consultas de maneira crescente:</h3>
+
+``` 
+  SELECT coluna FROM banco_de_dados.tabela ORDER BY coluna ASC;
+```
+
+<h3>Ordenar consultas de maneira decrescente:</h3>
+
+``` 
+  SELECT coluna FROM banco_de_dados.tabela ORDER BY coluna DESC;
+```
