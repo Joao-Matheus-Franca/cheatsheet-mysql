@@ -67,5 +67,5 @@
 <h3>Exibir em uma nova coluna a concatenação de outras colunas:</h3>
 
 ``` 
-  SELECT CONCAT(nome_da_coluna, " ", nome_da_coluna) AS nome_da_nova_coluna FROM nome_do_banco_de_dados.nome_da_tabela;
+  SELECT CONCAT(coluna_01, " ", coluna_02) AS nova_coluna FROM banco_de_dados.tabela;
 ```
