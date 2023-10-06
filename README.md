@@ -30,20 +30,30 @@
   CREATE DATABASE nome_do_banco_de_dados;
 ```
 
-<h3>Principais restrições(constraints):</h3>
+<details open>
+  <summary>
+    <h3>Principais restrições(constraints):</h3>
+  </summary>
+  
+  ```
+    NOT NULL
+  ```
+  ```
+    UNIQUE
+  ```
+  ```
+    PRIMARY KEY
+  ```
+  ```
+    FOREIGN KEY
+  ```
+  ```
+    DEFAULT
+  ```
+</details>
 
-```
-  NOT NULL
-```
-```
-  UNIQUE
-```
-```
-  PRIMARY KEY
-```
-```
-  FOREIGN KEY
-```
-```
-  DEFAULT
+<h3>Exibir valores em formato de tabela:</h3>
+
+``` 
+  SELECT valor AS nome_da_coluna;
 ```
