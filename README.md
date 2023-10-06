@@ -57,3 +57,9 @@
 ``` 
   SELECT valor AS nome_da_coluna;
 ```
+
+<h3>Exibir colunas de tabelas selecionadas:</h3>
+
+``` 
+  SELECT nome_da_coluna FROM nome_do_banco_de_dados.nome_da_tabela;
+```
