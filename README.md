@@ -81,3 +81,9 @@
 ``` 
   SELECT COUNT(nome_da_coluna) FROM nome_do_banco_de_dados.nome_da_tabela;
 ```
+
+<h3>Limitar número de linhas retornadas por uma consulta:</h3>
+
+``` 
+  SELECT nome_da_coluna FROM nome_do_banco_de_dados.nome_da_tabela LIMIT valor;
+```
