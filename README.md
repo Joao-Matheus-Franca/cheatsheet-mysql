@@ -75,3 +75,9 @@
 ``` 
   SELECT DISTINCT nome_da_coluna FROM nome_do_banco_de_dados.nome_da_tabela;
 ```
+
+<h3>Contar valores não nulos em colunas selecionadas:</h3>
+
+``` 
+  SELECT COUNT(nome_da_coluna) FROM nome_do_banco_de_dados.nome_da_tabela;
+```
