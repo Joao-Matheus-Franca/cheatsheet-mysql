@@ -87,3 +87,9 @@
 ``` 
   SELECT nome_da_coluna FROM nome_do_banco_de_dados.nome_da_tabela LIMIT valor;
 ```
+
+<h3>Pular linhas indesejadas ao limitar uma consulta:</h3>
+
+``` 
+  SELECT coluna FROM banco_de_dadostabela LIMIT valor OFFSET valor;
+```
