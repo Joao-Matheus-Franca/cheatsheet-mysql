@@ -67,7 +67,7 @@
 <h3>Exibir em uma nova coluna a concatenação de outras colunas:</h3>
 
 ``` 
-  SELECT CONCAT(coluna_01, " ", coluna_02) AS nova_coluna FROM banco_de_dados.tabela;
+  SELECT CONCAT(coluna01, " ", coluna02) AS nova_coluna FROM banco_de_dados.tabela;
 ```
 
 <h3>Exibir valores únicos de uma ou mais colunas:</h3>
@@ -91,5 +91,5 @@
 <h3>Pular linhas indesejadas ao limitar uma consulta:</h3>
 
 ``` 
-  SELECT coluna FROM banco_de_dadostabela LIMIT valor OFFSET valor;
+  SELECT coluna FROM banco_de_dados.tabela LIMIT valor OFFSET valor;
 ```
