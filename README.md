@@ -69,3 +69,9 @@
 ``` 
   SELECT CONCAT(coluna_01, " ", coluna_02) AS nova_coluna FROM banco_de_dados.tabela;
 ```
+
+<h3>Exibir valores únicos de uma ou mais colunas:</h3>
+
+``` 
+  SELECT DISTINCT nome_da_coluna FROM nome_do_banco_de_dados.nome_da_tabela;
+```
