@@ -168,3 +168,28 @@
 ``` 
   SELECT coluna FROM banco_de_dados.tabela WHERE operação_lógica;
 ```
+
+<details open>
+  <summary>
+    <h3>Principais 'curingas':</h3>
+  </summary>
+  
+  <table>
+    <tr>
+      <th>Curinga</th>
+      <th>Uso</th>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td>Retornar todas as colunas de uma tabela</td>
+    </tr>
+    <tr>
+      <td>%</td>
+      <td>Representar nenhum, um ou múltiplos caracteres</td>
+    </tr>
+    <tr>
+      <td>_</td>
+      <td>Representar apenas um carácter</td>
+    </tr>
+  </table>
+</details>
