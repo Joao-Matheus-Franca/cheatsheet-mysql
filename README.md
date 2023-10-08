@@ -160,6 +160,10 @@
       <td>NOT</td>
       <td>Negação</td>
     </tr> 
+    <tr>
+      <td>IN</td>
+      <td>Dentre um grupo de valores</td>
+    </tr> 
   </table>
 </details>
 
