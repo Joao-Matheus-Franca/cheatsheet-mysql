@@ -162,3 +162,9 @@
     </tr> 
   </table>
 </details>
+
+<h3>Filtrar usando operadores:</h3>
+
+``` 
+  SELECT coluna FROM banco_de_dados.tabela WHERE operação_lógica;
+```
