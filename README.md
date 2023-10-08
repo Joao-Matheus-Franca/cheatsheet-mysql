@@ -153,6 +153,10 @@
       <td>Igualdade com booleanos</td>
     </tr>
     <tr>
+      <td>LIKE</td>
+      <td>Igualdade com palavras</td>
+    </tr>
+    <tr>
       <td>NOT</td>
       <td>Negação</td>
     </tr> 
