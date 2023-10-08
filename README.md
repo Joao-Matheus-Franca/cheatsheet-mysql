@@ -105,3 +105,56 @@
 ``` 
   SELECT coluna FROM banco_de_dados.tabela ORDER BY coluna DESC;
 ```
+
+<details open>
+  <summary>
+    <h3>Principais operadores:</h3>
+  </summary>
+  
+  <table>
+    <tr>
+      <th>Operador</th>
+      <th>Significado</th>
+    </tr>
+    <tr>
+      <td>=</td>
+      <td>Igual</td>
+    </tr>
+    <tr>
+      <td><></td>
+      <td>Diferente</td>
+    </tr>
+    <tr>
+      <td>></td>
+      <td>Maior que</td>
+    </tr>
+    <tr>
+      <td><</td>
+      <td>Menor que</td>
+    </tr>
+    <tr>
+      <td>>=</td>
+      <td>Maior ou igual que</td>
+    </tr>
+    <tr>
+      <td><=</td>
+      <td>Menor ou igual que</td>
+    </tr>
+    <tr>
+      <td>AND</td>
+      <td>E</td>
+    </tr> 
+    <tr>
+      <td>OR</td>
+      <td>Ou</td>
+    </tr>
+    <tr>
+      <td>IS</td>
+      <td>Igualdade com booleanos</td>
+    </tr>
+    <tr>
+      <td>NOT</td>
+      <td>Negação</td>
+    </tr> 
+  </table>
+</details>
