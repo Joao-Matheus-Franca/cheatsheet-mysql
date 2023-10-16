@@ -163,7 +163,11 @@
     <tr>
       <td>IN</td>
       <td>Dentre um grupo de valores</td>
-    </tr> 
+    </tr>
+    <tr>
+      <td>BETWEEN</td>
+      <td>Dentre intervalo de valores</td>
+    </tr>
   </table>
 </details>
 
