@@ -201,3 +201,44 @@
     </tr>
   </table>
 </details>
+
+<details open>
+  <summary>
+    <h3>Trabalhando com datas:</h3>
+  </summary>
+  
+  <table>
+    <tr>
+      <th>Função</th>
+      <th>Retorno</th>
+    </tr>
+    <tr>
+      <td>DATE()</td>
+      <td>Data no formato: YYYY-MM-DD</td>
+    </tr>
+    <tr>
+      <td>YEAR()</td>
+      <td>Ano</td>
+    </tr>
+    <tr>
+      <td>MONTH()</td>
+      <td>Mês</td>
+    </tr>
+    <tr>
+      <td>DAY()</td>
+      <td>Dia</td>
+    </tr>
+    <tr>
+      <td>HOUR()</td>
+      <td>Hora</td>
+    </tr>
+    <tr>
+      <td>MINUTE()</td>
+      <td>Minuto</td>
+    </tr>
+    <tr>
+      <td>SECOND()</td>
+      <td>Segundo</td>
+    </tr>
+  </table>
+</details>
