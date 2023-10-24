@@ -246,6 +246,6 @@
 <h3>Inserir valores em tabelas:</h3>
 
 ``` 
-  INSERT INTO nome_da_tabela (coluna01, coluna02...)
+  INSERT INTO banco_de_dados.tabela (coluna01, coluna02...)
   VALUES (valor_coluna01, valor_coluna02...);
 ```
