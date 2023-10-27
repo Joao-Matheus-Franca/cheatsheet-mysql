@@ -266,3 +266,15 @@
   SET coluna = novo_valor
   WHERE operação_lógica usando coluna da PRIMARY KEY;
 ```
+
+<h3>Comando para desabilitar o safe update</h3>
+
+``` 
+  SET SET SQL_SAFE_UPDATES = 0;
+```
+
+<h3>Comando para habilitar o safe update</h3>
+
+``` 
+  SET SET SQL_SAFE_UPDATES = 1;
+```
