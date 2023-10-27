@@ -250,7 +250,7 @@
   VALUES (valor_coluna01, valor_coluna02...);
 ```
 
-<h3>Atualizar dados em uma tabela (Safe Update: off):</h3>
+<h3>Atualizar dados em uma tabela (safe update: off):</h3>
 
 ``` 
   UPDATE banco_de_dados.tabela
@@ -259,12 +259,12 @@
   ⚠️ Atualiza todas as linhas que satisfaçam a lógica estabelecida ⚠️
 ```
 
-<h3>Atualizar dados em uma tabela (Safe Update: on):</h3>
+<h3>Atualizar dados em uma tabela (safe update: on):</h3>
 
 ``` 
   UPDATE banco_de_dados.tabela
   SET coluna = novo_valor
-  WHERE operação_lógica usando coluna da PRIMARY KEY;
+  WHERE operação_lógica (usando coluna da PRIMARY KEY);
 ```
 
 <h3>Comando para desabilitar o safe update</h3>
