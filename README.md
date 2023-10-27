@@ -258,3 +258,11 @@
   WHERE operação_lógica;
   ⚠️ Atualiza todas as linhas que satisfaçam a lógica estabelecida ⚠️
 ```
+
+<h3>Atualizar dados em uma tabela (Safe Update: on):</h3>
+
+``` 
+  UPDATE banco_de_dados.tabela
+  SET coluna = novo_valor
+  WHERE operação_lógica usando coluna da PRIMARY KEY;
+```
