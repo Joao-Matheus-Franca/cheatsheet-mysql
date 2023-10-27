@@ -249,3 +249,12 @@
   INSERT INTO banco_de_dados.tabela (coluna01, coluna02...)
   VALUES (valor_coluna01, valor_coluna02...);
 ```
+
+<h3>Atualizar dados em uma tabela (Safe Update: off):</h3>
+
+``` 
+  UPDATE banco_de_dados.tabela
+  SET coluna = novo_valor
+  WHERE operação_lógica;
+  ⚠️ Atualiza todas as linhas que satisfaçam a lógica estabelecida ⚠️
+```
