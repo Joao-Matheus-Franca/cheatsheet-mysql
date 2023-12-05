@@ -270,11 +270,11 @@
 <h3>Comando para desabilitar o safe update</h3>
 
 ``` 
-  SET SET SQL_SAFE_UPDATES = 0;
+  SET SQL_SAFE_UPDATES = 0;
 ```
 
 <h3>Comando para habilitar o safe update</h3>
 
 ``` 
-  SET SET SQL_SAFE_UPDATES = 1;
+  SET SQL_SAFE_UPDATES = 1;
 ```
