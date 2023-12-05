@@ -282,6 +282,12 @@
   WHERE operação_lógica (usando coluna da PRIMARY KEY);
 ```
 
+<h3>Excluir todos os dados de uma tabela</h3>
+
+```
+  TRUNCATE banco_de_dados.tabela;
+```
+
 <h3>Comando para desabilitar o safe update</h3>
 
 ``` 
