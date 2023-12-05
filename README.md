@@ -267,6 +267,21 @@
   WHERE operação_lógica (usando coluna da PRIMARY KEY);
 ```
 
+<h3>Excluir dados em uma tabela (safe update: off):</h3>
+
+``` 
+  DELETE banco_de_dados.tabela
+  WHERE operação_lógica;
+  ⚠️ Atualiza todas as linhas que satisfaçam a lógica estabelecida ⚠️
+```
+
+<h3>Excluir dados em uma tabela (safe update: on):</h3>
+
+``` 
+  DELETE banco_de_dados.tabela
+  WHERE operação_lógica (usando coluna da PRIMARY KEY);
+```
+
 <h3>Comando para desabilitar o safe update</h3>
 
 ``` 
